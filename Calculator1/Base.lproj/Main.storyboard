@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -43,8 +44,11 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nb4-of-1K5"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL2-ME-Hzm">
+                            <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dL2-ME-Hzm">
                                 <rect key="frame" x="203" y="728" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -62,6 +66,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gye-sz-XHH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="51o-yv-he5">
                                 <rect key="frame" x="106" y="632" width="80" height="80"/>
@@ -81,6 +88,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LPl-PU-ONp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ9-jM-eoP">
                                 <rect key="frame" x="203" y="632" width="80" height="80"/>
@@ -100,6 +110,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X6t-YX-2xq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNI-Mo-Y9R">
                                 <rect key="frame" x="9" y="632" width="80" height="80"/>
@@ -119,6 +132,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yCj-jQ-dDX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tt-4v-gLU">
                                 <rect key="frame" x="106" y="536" width="80" height="80"/>
@@ -138,6 +154,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSE-Bb-UiM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XA-On-EOM">
                                 <rect key="frame" x="9" y="536" width="80" height="80"/>
@@ -157,6 +176,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WrS-W2-t62"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Fl-ph-OxG">
                                 <rect key="frame" x="203" y="536" width="80" height="80"/>
@@ -176,6 +198,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cL-wR-GbE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-cg-kiI">
                                 <rect key="frame" x="106" y="440" width="80" height="80"/>
@@ -195,6 +220,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ucN-HQ-7mn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhd-3J-oH5">
                                 <rect key="frame" x="9" y="440" width="80" height="80"/>
@@ -214,8 +242,11 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xLf-cF-zfB"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sq-dU-EbZ">
+                            <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Sq-dU-EbZ">
                                 <rect key="frame" x="9" y="343" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -233,6 +264,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7j6-Am-7DJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bay-np-Ekv">
                                 <rect key="frame" x="203" y="440" width="80" height="80"/>
@@ -252,6 +286,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="numberButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwC-Xd-yor"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYJ-sJ-uEh">
                                 <rect key="frame" x="300" y="632" width="80" height="80"/>
@@ -270,6 +307,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lxz-AL-u28"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDB-ig-NHb">
                                 <rect key="frame" x="300" y="536" width="80" height="80"/>
@@ -288,6 +328,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yWc-g6-LA9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlF-8q-rA5">
                                 <rect key="frame" x="300" y="440" width="80" height="80"/>
@@ -306,6 +349,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Jh-uN-yyw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5VK-WU-37d">
                                 <rect key="frame" x="203" y="343" width="80" height="80"/>
@@ -325,8 +371,11 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Gp-2o-yLG"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifu-7q-BOB">
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifu-7q-BOB">
                                 <rect key="frame" x="106" y="343" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -344,8 +393,11 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ii-zE-oyz"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgV-9v-xYN">
+                            <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CgV-9v-xYN">
                                 <rect key="frame" x="9" y="728" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -363,6 +415,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YpX-2q-blR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vz7-6E-2ca">
                                 <rect key="frame" x="300" y="343" width="80" height="80"/>
@@ -381,6 +436,9 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LQN-rF-HXj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0E8-1Y-5eB">
                                 <rect key="frame" x="300" y="728" width="80" height="80"/>
@@ -399,12 +457,18 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=regular" hidden="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <action selector="operatorButtonsTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Qq-0Q-FLK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <color key="tintColor" systemColor="tertiarySystemFillColor"/>
                     </view>
+                    <connections>
+                        <outlet property="calculatorResuls" destination="duF-PV-xqd" id="LQF-Pj-VRE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
